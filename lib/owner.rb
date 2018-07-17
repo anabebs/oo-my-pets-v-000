@@ -17,7 +17,12 @@ end
  end
  
  def self.reset_all
- @@all.clear
+  @@all.clear
+  end
+  
+  
+  def self.count 
+   @@all.size
   end
  
  
