@@ -4,7 +4,9 @@ class Cat
    @name = name
  end
  
- 
+ def change_name(name)
+
+  if  
  
  
  
