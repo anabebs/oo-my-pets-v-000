@@ -1,4 +1,4 @@
-class Owners
+class Owner
  attr_reader :name 
  attr_accessor :mood
  def initialize(name, mood = "nervous")
