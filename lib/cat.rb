@@ -1,6 +1,6 @@
 class Cat
- 
- def initialize:cat
+ attr_accessor
+ def initialize :cat
  
  
  
