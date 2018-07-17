@@ -1,10 +1,11 @@
-+class Owner 
--  # code goes here	+	attr_accessor :name, :pets
--end 	+	attr_reader :species 
-+
-+
-+	OWNERS = []
-+
+class Owner 
+  # code goes here	+	
+attr_accessor :name, :pets
+attr_reader :species 
+
+
+	OWNERS = []
+
 
 	def initialize(species)
 		@species = species 
