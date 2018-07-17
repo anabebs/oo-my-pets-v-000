@@ -4,7 +4,7 @@ class Owner
  
  OWNERS = []
  
- @@all = []
+
  
  
  def initialize(species)
