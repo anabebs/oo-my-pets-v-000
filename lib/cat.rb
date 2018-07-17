@@ -1,13 +1,14 @@
 class Cat
  attr_reader :name 
  attr_accessor :mood
- def initialize(name)
+ def initialize(name, mood = "nervous")
    @name = name
+   @mood = mood
  end
  
- def change_name(name, mood = ("nervous")
 
-  if cat.name= ("mr. whiskers") return NoMethodError 
+
+ 
  end
  
  
