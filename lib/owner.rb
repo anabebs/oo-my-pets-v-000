@@ -12,7 +12,7 @@ class Owner
     @pets = { :fishes => [], :dogs => [], :cats => [] }
 end
 
-  
+  def self.all
  
  
 end
