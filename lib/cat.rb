@@ -5,7 +5,7 @@ class Cat
    @name = name
  end
  
- def change_name(name)
+ def change_name(name, mood = ())
 
   if cat.name= ("mr. whiskers") return NoMethodError 
  end
